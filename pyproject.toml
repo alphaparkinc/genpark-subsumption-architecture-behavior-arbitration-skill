@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-subsumption-architecture-behavior-arbitration-skill"
+version = "1.0.0"
+description = "Brooks' Subsumption Architecture behavior coordination with priority-based suppression and inhibition."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-subsumption-architecture-behavior-arbitration-skill"
+Repository = "https://github.com/alphaparkinc/genpark-subsumption-architecture-behavior-arbitration-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-subsumption-architecture-behavior-arbitration-skill/issues"
